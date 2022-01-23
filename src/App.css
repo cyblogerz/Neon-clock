@@ -1,0 +1,30 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: consolas;
+  letter-spacing: 4px;
+  background-color: #031321;
+
+
+}
+
+.Clock{
+  color: #2196f3;
+  text-shadow: 0 0 10px  purple, 0 0 40px purple , 0 0 80px purple;
+  padding: 1rem;
+  border: thick solid #fff;
+  background: linear-gradient(
+    to right,purple,blue
+  );
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  border-color: #2196f3;
+  border-image: linear-gradient(
+    to right,purple,blue
+  );
+  border-image-slice: 1;
+  box-shadow:  0 0 10px  purple, 0 0 40px purple , 0 0 80px purple;
+}
+
